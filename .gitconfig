@@ -1,0 +1,24 @@
+[user]
+	name = Paul Iannazzo
+	email = somethingitalian@gmail.com
+[core]
+	editor = emacsclient -t
+	logAllRefUpdates = true
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	unsquash = reset --hard ORIG_HEAD
+[merge]
+	tool = kdiff3
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = true
