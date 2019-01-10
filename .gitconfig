@@ -4,7 +4,7 @@
 [core]
 	editor = emacsclient -t
 	logAllRefUpdates = true
-	excludesfile = ~/.gitignore
+	excludesfile = ~/dot_files/.gitignore
 [color]
 	ui = auto
 [alias]
@@ -12,13 +12,22 @@
 	ci = commit
 	st = status
 	br = branch
+	ref = reflog
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
 	unsquash = reset --hard ORIG_HEAD
+	please = push --force-with-lease
 [merge]
 	tool = kdiff3
+	#tool = emacsclient -t
+	verbosity = 4
 [branch]
 	autosetuprebase = always
 [pull]
 	rebase = true
+[gui]
+	diffcontext = 7
+	gcwarning = false
+	fontui = -family \"Bitstream Vera Sans\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Bitstream Vera Sans Mono\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
