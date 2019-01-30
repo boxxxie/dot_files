@@ -1,0 +1,11 @@
+package archlinux
+package battery
+package cd
+package config
+package emacs
+package mvn
+package spark
+package wd
+package weather
+theme default
+theme nai
