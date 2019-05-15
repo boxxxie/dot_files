@@ -19,8 +19,8 @@
 	unsquash = reset --hard ORIG_HEAD
 	please = push --force-with-lease
 [merge]
-	tool = kdiff3
-	#tool = emacsclient -t
+	# tool = kdiff3
+	tool = emacsclient -t
 	verbosity = 4
 [branch]
 	autosetuprebase = always
@@ -29,5 +29,7 @@
 [gui]
 	diffcontext = 7
 	gcwarning = false
-	fontui = -family \"Bitstream Vera Sans\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
-	fontdiff = -family \"Bitstream Vera Sans Mono\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
+	fontui =   -family \"Ubuntu Mono\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Ubuntu Mono\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
+	# fontui = -family \"Bitstream Vera Sans\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
+	# fontdiff = -family \"Bitstream Vera Sans Mono\" -size 18 -weight normal -slant roman -underline 0 -overstrike 0
