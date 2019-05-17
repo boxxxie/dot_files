@@ -27,11 +27,11 @@
              "-XX:+UseStringDeduplication"
 
              ;;zgc args (need jdk 11 or 12)
-             "-XX:+UnlockExperimentalVMOptions"
-             "-XX:+UseZGC"
-             "-Xms1g" ;;min vm size
-             "-Xmx10g" ;;max vm size
-             "-Xlog:gc"
+             ;;"-XX:+UnlockExperimentalVMOptions"
+             ;;"-XX:+UseZGC"
+             ;;"-Xms1g" ;;min vm size
+             ;;"-Xmx10g" ;;max vm size
+             ;;"-Xlog:gc"
              ]
   }
  }
