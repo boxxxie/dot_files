@@ -6,3 +6,6 @@ ln -s .config/systemd/ ~/.config/systemd
 ln -s .config/termite  ~/.config/termite
 ln -s .config/omf      ~/.config/omf 
 ln -s .config/fish     ~/.config/fish
+ln -s .gitignore       ~/.gitignore
+ln -s .gitconfig       ~/.gitconfig
+ln -s .Xmodmap         ~/.Xmodmap
