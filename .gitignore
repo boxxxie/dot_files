@@ -1,3 +1,5 @@
 .hgignore
 .projectile
 env.fish
+.#*
+.~lock*
